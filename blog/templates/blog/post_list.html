@@ -1,18 +1,27 @@
+{% load static %}
 <html>
     <head>
-        <title>Unsolicited Application</title>
+        <title>Curious.Conscientious.Cooperative.</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="//fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
+        <body style="padding-left:15px;">
         <div>
-            <h1><a href="/">Django Girls Blog</a></h1>
+            <h1 style="font-family:Montserrat;"><h1 style="color:#ff6500;">Curious.</h1>
+            <h1 style="font-family:Montserrat;"><h1 style="color:#f8049c;">Cooperative.</h1>
+            <h1 style="font-family:Montserrat;"><h1 style="color:#3a046d;">Conscientious.</h1>
         </div>
-
-     
-            <div>
-                <p>published: {{post.published__date}}</p>
-                <h2><a href="">{{post.title}}</a></h2>
-                <p>{{post.text</p>
-            </div>
-        
+       <div>
+            <img>
+            <img style="margin-left:400px;">   
+            <img src="{% static 'img/Prisma.png' %}" alt="Curious.Conscientious.Cooperative" style="width:800px;height:600px;">
+        </div>
+     <br>
+            <p>     
+            <p style="font-family:Montserrat;"><p style="color:#3a046d;">Would you like to know more about me? <a href="https://www.instagram.com/chcemisie/?hl=en">Have a glimpse at what I do in my free time. </a>Please do not hesitate to <a href="mailto:aapilitowska@gmail.com">contact me</a> if you have any further questions, I look forward to meeting you in person again!
+            </p>
     </body>
 </html>
